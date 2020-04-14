@@ -913,6 +913,13 @@
   resolved "https://registry.npm.taobao.org/@types/q/download/@types/q-1.5.2.tgz?cache=0&sync_timestamp=1580864636491&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fq%2Fdownload%2F%40types%2Fq-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
   integrity sha1-aQoUdbhPKohP0HzXl8APXzE1bqg=
 
+"@types/three@^0.103.2":
+  version "0.103.2"
+  resolved "https://registry.npm.taobao.org/@types/three/download/@types/three-0.103.2.tgz#f7d49130001c551941a0ded757def810579aafc4"
+  integrity sha1-99SRMAAcVRlBoN7XV974EFear8Q=
+  dependencies:
+    three "*"
+
 "@types/webpack-env@^1.15.1":
   version "1.15.1"
   resolved "https://registry.npm.taobao.org/@types/webpack-env/download/@types/webpack-env-1.15.1.tgz#c8e84705e08eed430b5e15b39c65b0944e4d1422"
@@ -7762,6 +7769,11 @@ thread-loader@^2.1.3:
     loader-runner "^2.3.1"
     loader-utils "^1.1.0"
     neo-async "^2.6.0"
+
+three@*, three@^0.115.0:
+  version "0.115.0"
+  resolved "https://registry.npm.taobao.org/three/download/three-0.115.0.tgz#540d800c381b9da2334c024f0fbe4d23f84eb05e"
+  integrity sha1-VA2ADDgbnaIzTAJPD75NI/hOsF4=
 
 through2@^2.0.0:
   version "2.0.5"
